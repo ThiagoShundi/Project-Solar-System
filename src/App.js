@@ -1,7 +1,7 @@
 import React from 'react';
 import Header from './components/Header';
 import SolarSystem from './components/SolarSystem';
-// import Title from './components/Title';
+import Missions from './components/Missions';
 
 import './App.css';
 
@@ -12,7 +12,7 @@ class App extends React.Component {
         <p>Sistema Solar</p>
         <Header />
         <SolarSystem />
-        {/* <Title /> */}
+        <Missions />
       </div>
     );
   }

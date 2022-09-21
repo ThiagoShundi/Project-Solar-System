@@ -25,7 +25,7 @@ MissionCard.propTypes = {
 
 MissionCard.defautProps = {
   name: '',
-  year: 2022,
+  year: '',
   country: '',
   destination: '',
 };
